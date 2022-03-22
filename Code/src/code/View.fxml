@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<Group xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="code.Controller">
+   <BorderPane prefHeight="768.0" prefWidth="1366.0">
+      <bottom>
+          <ListView fx:id="hand" maxHeight="140" minWidth="-Infinity" onMouseEntered="#handUp" onMouseExited="#handDown" orientation="HORIZONTAL" translateY="110.0" BorderPane.alignment="BOTTOM_CENTER">
+
+          </ListView>
+      </bottom>
+   </BorderPane>
+
+    <Button onAction="#click" text="new" translateY="30" />
+    <Button alignment="CENTER_LEFT" onAction="#click2" text="add price" />
+</Group>
